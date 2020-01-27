@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="../img/favicon.ico" />
+  <link rel="apple-touch-icon" href="../img/logo192.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="decription" content="Anthony Williams - Software Engineer">
+  <link rel="stylesheet" type="text/css" href="../css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="../css/styles.css">
+  <title>Portfolio - Anthony Williams | Software Developer</title>
+</head>
+<body>
+  <div class="main-content">
+    <div class="theme-switch-wrapper">
+      <label class="theme-switch" for="checkbox">
+        <input type="checkbox" id="checkbox" />
+        <div class="slider round"></div>
+      </label>
+    </div>
+    <header class="portfolio-header">
+      <h1>Portfolio.</h1>
+      <span class="breadcrumb"><a href="/">Home / </a><span class="breadcrumb-slug">Portfolio</span></span>
+    </header>
+    <section class="portfolio-container">
+      <div class="portfolio">
+        <div class="portfolio-item">
+          <div class="portfolio-item-left">
+            <h3>BookList</h3>
+            <p>
+              BookList is a full-stack e-commerce web app I created for 
+              a potential client - a start-up looking to offer audiobooks 
+              soon. The app uses Redux to manage state, Redux-Sagas to handle 
+              side-effects and dispatch actions, Stripe to manage payments 
+              that connect to a back-end API and Firebase for data storage 
+              and user authentication. 
+            </p>
+            <ul class="portfolio-tags">
+              <li>React</li>
+              <li>Redux</li>
+              <li>Redux-Sagas</li>
+              <li>Firebase</li>
+              <li>Express</li>
+              <li>Sass</li>
+              <li>Jest</li>
+              <li>Responsive</li>
+              <li>Enzyme</li>
+            </ul>
+            <div class="sample-link">
+              <h4>Sample Login Credentials</h4>
+              <div class="credentials">
+                <span class="sample-link-bold">
+                  email: 
+                </span>
+                <span>sampleuser@gmail.com</span>
+              </div>
+
+              <div class="credentials">
+                <span class="sample-link-bold">
+                  password: 
+                </span>
+                <span>123456</span>
+              </div>
+            </div>
+            <div class="portfolio-link">
+              <a class="link-button" href="https://www.thebooklist.xyz" target="_blank">Visit BookList</a>
+            </div>
+          </div>
+          <div class="portfolio-item-right">
+            <img src="../img/booklist-demo-small.gif" alt="BookList Demo">
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-item-left">
+            <h3>NSFWcheck</h3>
+            <p>
+              NSFWcheck is a full-stack web app that allows users to check 
+              if a site contains NSFW(Not-Safe-For-Work) images. It has a 
+              React.js frontend and connects to an express API I created. 
+              The API does the processing of the image search and returns 
+              the decision. 
+            </p>
+            <ul class="portfolio-tags">
+              <li>React</li>
+              <li>CSS</li>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>Jest</li>
+              <li>Responsive</li>
+              <li>Enzyme</li>
+            </ul>
+            <div class="portfolio-link">
+              <a class="link-button" href="https://www.nsfwcheck.com" target="_blank">Visit NSFWcheck</a>
+            </div>
+          </div>
+          <div class="portfolio-item-right">
+            <img src="../img/nsfwcheck-demo-small.gif" alt="NSFWcheck Demo">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="../scripts/toggle.js"></script>
+</body>
+</html>
