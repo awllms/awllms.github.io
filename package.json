@@ -19,7 +19,5 @@
   },
   "homepage": "https://github.com/antcodess/antcodess.github.io#readme",
   "dependencies": {},
-  "devDependencies": {
-    "http-server": "^0.12.1"
-  }
+  "devDependencies": {}
 }
