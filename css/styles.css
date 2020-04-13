@@ -380,6 +380,12 @@ header span.breadcrumb .breadcrumb-slug {
   border-radius: 5px;
 }
 
+.portfolio-item .portfolio-item-right video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
 ul.portfolio-tags {
   display: flex;
   flex-wrap: wrap;
