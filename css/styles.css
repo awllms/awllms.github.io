@@ -140,10 +140,8 @@ table {
   --portfolio-tags-color: white;
   --portfolio-tags-background: black;
   --portfolio-p-color: #6a6a6a;
-  --box-shadow: 0 2px 10px #f0f0f0;
-  --border: 1px solid #f0f0f0;
 }
-/* e0e0e0 */
+
 [data-theme='dark'] {
   --bg-color: black;
   --font-color: white;
@@ -155,8 +153,6 @@ table {
   --portfolio-tags-color: black;
   --portfolio-tags-background: #ffeb00;
   --portfolio-p-color: white;
-  --box-shadow: none;
-  --border: none;
 }
 
 /* Basic Styles */
@@ -181,10 +177,6 @@ a {
   text-decoration: none;
   color: black;
 }
-
-/* a:hover {
-	opacity: 0.9;
-} */
 
 h1 {
   font-family: 'Hurme Geometric Sans 3 W03 Bold';
@@ -388,10 +380,6 @@ header span.breadcrumb .breadcrumb-slug {
   max-width: 100%;
   height: auto;
   border-radius: 5px;
-  box-shadow: var(--box-shadow);
-  border: var(--border);
-  transition-duration: 500ms;
-  transition-property: box-shadow, border;
 }
 
 ul.portfolio-tags {
