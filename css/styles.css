@@ -217,6 +217,7 @@ header {
   justify-content: flex-end;
   align-items: center;
   margin-top: 20px;
+  margin-right: 50px;
 }
 
 .theme-switch-wrapper em {
