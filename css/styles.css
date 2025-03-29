@@ -348,7 +348,7 @@ header span.breadcrumb .breadcrumb-slug {
 
 .portfolio-item .portfolio-item-left {
   width: 50%;
-  margin-right: 50px;
+  margin-right: 60px;
 }
 
 .portfolio-item .portfolio-item-left h3 a {
@@ -362,6 +362,7 @@ header span.breadcrumb .breadcrumb-slug {
 
 .portfolio-item .portfolio-item-right {
   width: 68%;
+  border: none;
 }
 
 .portfolio-item .portfolio-item-left p {
@@ -374,14 +375,13 @@ header span.breadcrumb .breadcrumb-slug {
 
 .portfolio-item .portfolio-item-right img {
   max-width: 100%;
-  height: auto;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 .portfolio-item .portfolio-item-right video {
   max-width: 100%;
   height: auto;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 ul.portfolio-tags {
@@ -451,6 +451,30 @@ footer span {
   font-size: 0.74rem;
   font-weight: bolder;
   color: var(--paragraph-color);
+}
+
+a:focus,
+video:focus {
+  outline: none;
+}
+
+a img,
+a video {
+  border: none;
+}
+
+.portfolio-item-right video,
+.portfolio-item-right video:focus,
+.portfolio-item-right video:active {
+  border: none !important;
+  outline: none !important;
+}
+
+.portfolio-item-right a,
+.portfolio-item-right a:focus,
+.portfolio-item-right a:active {
+  border: none !important;
+  outline: none !important;
 }
 
 /* Mobile Styling */
